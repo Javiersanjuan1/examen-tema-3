@@ -52,14 +52,11 @@ int main() {
     try {
         Environment myEnvironment;
 
-        // Agregar algunos simbolos
         myEnvironment.addSymbol("x", 10);
         myEnvironment.addSymbol("y", 20);
 
-        // Intento de acceder a un simbolo no existente
         std::cout << "El valor de z es: " << myEnvironment.lookup("z") << std::endl;
 
-        // Intento de insertar un simbolo ya existente con un valor diferente
         myEnvironment.insert("x", 30);
 
     } catch (const std::exception& e) {
