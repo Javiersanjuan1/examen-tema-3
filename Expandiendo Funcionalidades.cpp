@@ -20,7 +20,7 @@ public:
     Environment() {}
 
     void addSymbol(const std::string& symbol, const Variant& value) {
-        // Utiliza emplace para construir directam
+        // Utiliza emplace para construir direc
         symbolTable.emplace(symbol, value);
     }
 
