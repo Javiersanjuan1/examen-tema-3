@@ -55,7 +55,7 @@ int main() {
         myEnvironment.addSymbol("x", Variant(10));
         myEnvironment.addSymbol("y", Variant("Hola, Mundo"));
 
-        // Verificar si un símbolo
+        // Verificar si un sím
         std::string symbolToCheck = "x";
         if (myEnvironment.symbolExists(symbolToCheck)) {
             Variant value = myEnvironment.getSymbolValue(symbolToCheck);
