@@ -30,7 +30,7 @@ public:
         }
     }
 
-    // Pued
+
 };
 
 // Función principal para aplicaciones de Windows (WinMain)
