@@ -69,7 +69,7 @@ int main() {
             std::cout << "El símbolo '" << symbolToCheck << "' no existe en la tabla de símbolos." << std::endl;
         }
 
-        // Eliminar un sím
+        // Eliminar un
         std::string symbolToRemove = "y";
         myEnvironment.removeSymbol(symbolToRemove);
         std::cout << "Se eliminó el símbolo '" << symbolToRemove << "' de la tabla de símbolos." << std::endl;
