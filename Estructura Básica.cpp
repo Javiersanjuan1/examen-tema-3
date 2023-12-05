@@ -30,7 +30,7 @@ public:
         }
     }
 
-    // Puedes agregar más funciones según sea necesario para manipular la tabla de
+    // Puedes agregar más funciones según sea necesario para manipular la tab
 };
 
 // Función principal para aplicaciones de Windows (WinMain)
