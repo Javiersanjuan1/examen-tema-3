@@ -30,7 +30,7 @@ public:
         }
     }
 
-    // Puedes agr
+    // Pued
 };
 
 // Función principal para aplicaciones de Windows (WinMain)
