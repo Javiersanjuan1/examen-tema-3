@@ -55,7 +55,7 @@ int main() {
         myEnvironment.addSymbol("x", Variant(10));
         myEnvironment.addSymbol("y", Variant("Hola, Mundo"));
 
-        // Verificar
+
         std::string symbolToCheck = "x";
         if (myEnvironment.symbolExists(symbolToCheck)) {
             Variant value = myEnvironment.getSymbolValue(symbolToCheck);
@@ -69,7 +69,7 @@ int main() {
             std::cout << "El símbolo '" << symbolToCheck << "' no existe en la tabla de símbolos." << std::endl;
         }
 
-        // Eliminar un símbolo
+        // Eliminar un símbo
         std::string symbolToRemove = "y";
         myEnvironment.removeSymbol(symbolToRemove);
         std::cout << "Se eliminó el símbolo '" << symbolToRemove << "' de la tabla de símbolos." << std::endl;
