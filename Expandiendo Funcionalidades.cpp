@@ -20,7 +20,7 @@ public:
     Environment() {}
 
     void addSymbol(const std::string& symbol, const Variant& value) {
-        // Util
+        // Ut
         symbolTable.emplace(symbol, value);
     }
 
