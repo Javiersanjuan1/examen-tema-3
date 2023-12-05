@@ -33,7 +33,7 @@ public:
 
 };
 
-// Función
+// F
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
     // Crea una instancia de la clase Environment
     Environment myEnvironment;
