@@ -20,7 +20,7 @@ public:
     Environment() {}
 
     void addSymbol(const std::string& symbol, const Variant& value) {
-        // Utiliza emplace para construir directamente el par en el ma
+        // Utiliza emplace para construir directamente el par en el m
         symbolTable.emplace(symbol, value);
     }
 
