@@ -4,7 +4,7 @@
 
 class Environment {
 private:
-    // La tabla de símbolos u
+    // La tabla de símbolos
     std::map<std::string, int> symbolTable;
 
 public:
