@@ -14,7 +14,7 @@ public:
         symbolTable[symbol] = value;
     }
 
-    // Función para obtener el valor de un símbolo de la tabla de
+    // Función para obtener el valor de un símbolo de la tabla
     int getSymbolValue(const std::string& symbol) const {
         // Utiliza find() para buscar el símbolo en el std::map
         auto it = symbolTable.find(symbol);
