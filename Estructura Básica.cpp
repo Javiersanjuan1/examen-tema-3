@@ -30,7 +30,7 @@ public:
         }
     }
 
-    // Puedes agregar más funciones según sea necesario para manipular la tabla de símb
+    // Puedes agregar más funciones según sea necesario para manipular la tabla de
 };
 
 // Función principal para aplicaciones de Windows (WinMain)
