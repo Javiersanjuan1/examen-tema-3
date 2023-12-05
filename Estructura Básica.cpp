@@ -33,7 +33,7 @@ public:
 
 };
 
-// Función principal para aplicaciones de Windows (WinMain)
+// Función principal para aplicaciones de Windows (WinMa
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
     // Crea una instancia de la clase Environment
     Environment myEnvironment;
