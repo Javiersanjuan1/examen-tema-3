@@ -38,7 +38,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     // Crea una instancia de la clase Environment
     Environment myEnvironment;
 
-    // Tu código
+    // Tu c
 
     return 0;
 }
