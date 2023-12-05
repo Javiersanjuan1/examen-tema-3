@@ -30,7 +30,7 @@ public:
         }
     }
 
-    // Puedes agregar
+    // Puedes agr
 };
 
 // Función principal para aplicaciones de Windows (WinMain)
