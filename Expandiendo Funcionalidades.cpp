@@ -20,7 +20,7 @@ public:
     Environment() {}
 
     void addSymbol(const std::string& symbol, const Variant& value) {
-        // Utiliza emplace para constru
+        // Utiliza emplace para cons
         symbolTable.emplace(symbol, value);
     }
 
