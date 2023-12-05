@@ -51,7 +51,7 @@ int main() {
     try {
         Environment myEnvironment;
 
-        // Agregar algunos símbolos con valores variantes
+        // Agregar algunos símbolos con valores varian
         myEnvironment.addSymbol("x", Variant(10));
         myEnvironment.addSymbol("y", Variant("Hola, Mundo"));
 
